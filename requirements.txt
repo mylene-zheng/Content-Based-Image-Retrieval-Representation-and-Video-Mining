@@ -1,0 +1,19 @@
+# Image Mining practical work — tested with Python 3.13.5 on macOS (CPU only)
+# Install: pip install -r requirements.txt
+
+# Video decoding and image handling
+av==19.0.0
+numpy==2.5.3
+pillow==12.3.0
+
+# Plotting
+matplotlib==3.11.2
+
+# Deep features (ResNet-50 IMAGENET1K_V2 via torchvision, DINOv2 ViT-S/14 via torch.hub)
+torch==2.14.0
+torchvision==0.29.0
+
+# Notebook and the interactive shot explorer
+ipykernel==7.4.0
+ipywidgets==8.1.9
+jupyterlab>=4.0
